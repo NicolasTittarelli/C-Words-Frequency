@@ -8,7 +8,7 @@ import java.util.*;
 public class Reader {
 
     public void reader() throws IOException {
-        String filename = "prueba.txt";
+        String filename = "Words Frequency/prueba.txt";
 
         BufferedReader br = new BufferedReader(new FileReader(filename));
         Map<String, Integer> map = new HashMap<>();
